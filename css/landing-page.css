@@ -67,15 +67,17 @@ h6 {
   margin:0 0 20px;
 }
 .page-header {
-  padding:20 50 20 20;
+  padding:5 20 20 20;
+  margin-left:0
   text-align: Left;
   color:#333333;
-  background-color: #FFF4E3;
+  background-color: #FFF6F2;
 }/*網站標題*/
 
 .col-md-12 {
-    background-color: #FFF4E3;
+    background-color: #FFF6F2;
 }/*新加的, 讓顏色填滿*/
+
 .intro-header {
     padding-top: 10px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 10px;
