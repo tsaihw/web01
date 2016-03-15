@@ -11,25 +11,7 @@
 * lead=內文
 */
 
-/* tab color */
-.nav-tabs>li>a {
-  background-color: #333333;
-  border-color: #777777;
-  color:#fff;
-}
 
-/* active tab color */
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
-  color: #fff;
-  background-color: #666;
-  border: 1px solid #888888;
-}
-
-/* hover tab color */
-.nav-tabs>li>a:hover {
-  border-color: #000000;
-  background-color: #111111;
-}
 
 @font-face {
   font-family: 'cwTeXMing';
@@ -53,13 +35,6 @@
 }
 
 body,
-html {
-    width: 100%;
-    height: 100%;
-    background-color:#FFF6F2;
-}
-
-body,
 {
     font-family: "Lato","cwTeXMing","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
@@ -73,6 +48,34 @@ h5,
 h6 {
     font-family: "Lato","cwTeXMing","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+}
+
+/*網站顏色*/
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background-color:#FFF6F2;
+}
+
+/* tab color */
+.nav-tabs>li>a {
+  background-color: #EAE6D9;
+  border-color: #E3DfD4;
+  color:#333333;
+}
+
+/* active tab color */
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+  color: #333333;
+  background-color: #FFFCF4;
+  border: 1px solid #FFFCF4;
+}
+
+/* hover tab color */
+.nav-tabs>li>a:hover {
+  border-color: #FFFCF4;
+  background-color: #E3DfD4;
 }
 
 .topnav {
@@ -175,7 +178,7 @@ h6 {
 
 .content-section-a {
     padding: 20px 0;
-    background-color: #FFF4E9;
+
 }
 
 .content-section-b {
@@ -243,7 +246,7 @@ h6 {
 
 footer {
     padding: 50px 0;
-    background-color: #f8f8f8;
+    background-color: #FFF6F2;
 }
 
 p.copyright {
